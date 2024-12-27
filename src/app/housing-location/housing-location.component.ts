@@ -6,7 +6,7 @@ import { HousingLocation } from '../housinglocation';
   imports: [],
   template: `
     <p>
-      housing-location works! 
+      housing-location works! {{housingLocation.name}} {{housingLocation.city}}
     </p>
   `,
   styles: ``
