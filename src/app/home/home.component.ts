@@ -19,6 +19,8 @@ import { HousingLocation } from '../housinglocation';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
+  //  [name]="nameOfMySon"
+  // nameOfMySon: string = '张三'
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
   housingLocation: HousingLocation = {
     id: 9999,
