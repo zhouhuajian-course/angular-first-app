@@ -8,9 +8,12 @@ import { RouterModule } from '@angular/router';
   imports: [/*HomeComponent, DetailsComponent,*/ RouterModule],
   template: `
     <main>
-      <header class="brand-name">
-        <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true" />
-      </header>
+      <a [routerLink]="['/']">
+
+        <header class="brand-name">
+          <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true" />
+        </header>
+      </a>
       <section class="content">
         <router-outlet></router-outlet>
         <!-- 显示这个标签的下面 http://localhost:4200/ -->
